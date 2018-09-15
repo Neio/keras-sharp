@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFramework>net461</TargetFramework>
     <RootNamespace>KerasSharp.Backends.CNTK.GPU</RootNamespace>
     <AssemblyName>KerasSharp.Backends.CNTK.GPU</AssemblyName>
     <Platforms>x64</Platforms>
@@ -22,11 +22,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <DefineConstants>TRACE;RELEASE;NET462;GPU</DefineConstants>
+    <DefineConstants>TRACE;RELEASE;net461;GPU</DefineConstants>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <DefineConstants>TRACE;DEBUG;NET462;GPU</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;net461;GPU</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>

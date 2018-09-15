@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFramework>net461</TargetFramework>
     <RootNamespace>KerasSharp.Backends.CNTK.CPUOnly</RootNamespace>
     <AssemblyName>KerasSharp.Backends.CNTK.CPUOnly</AssemblyName>
     <Platforms>x64</Platforms>

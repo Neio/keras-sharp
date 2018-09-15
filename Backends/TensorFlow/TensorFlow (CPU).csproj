@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFramework>net461</TargetFramework>
     <RootNamespace>KerasSharp.Backends.TensorFlow</RootNamespace>
     <AssemblyName>KerasSharp.Backends.TensorFlow</AssemblyName>
     <Platforms>x64</Platforms>
